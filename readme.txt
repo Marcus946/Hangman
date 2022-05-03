@@ -3,4 +3,4 @@ You MUST install python in order to run this program
 
 Program version: 1.0
 
-Github:
+Github: https://github.com/Marcus946/Hangman
