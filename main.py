@@ -7,7 +7,7 @@ from wordlist import words
 root = Tk()
 
 #game version
-version = '1.0'
+version = '1.1'
 
 #names the window
 windowname = root.title(f'Hangman {version}')
