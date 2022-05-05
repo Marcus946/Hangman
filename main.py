@@ -57,7 +57,8 @@ wordshow.place(relx= .5, rely= .3, anchor= CENTER)
 
 #create a new game
 def newgame():
-    global guessedletter, shownword, word, hintsleft
+    global guessedletter, shownword, word, hintsleft, lives
+    lives = (6)
     word = (random.choice(words))
     wordlength = len(word)
     shownword = '-'*wordlength
